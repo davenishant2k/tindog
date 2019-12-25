@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  padding: 7% 15%;
+  z-index: 1;
+}
+
+.feature-row {
+  padding: 120px 0;
+  line-height: 1.5;
+}
+
+.features-col {
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 12%;
+}
+
+.container2 {
+  padding: 10% 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.btn-dark {
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 35px;
+}
+
+.img1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.feature-icons {
+  font-size: 45px;
+  color: #ef8172;
+}
+
+.features-text {
+  color: #8f8f8f;
+  width: 70%;
+  margin: auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin: 20px auto 10px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 15%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:993px) {
+  #title {
+    text-align: center;
+  }
+
+  .img1 {
+    position: static;
+    transform: rotate(0);
+    margin-top: 40px;
+  }
+}
+
+.cta-text {
+  width: 60%;
+  margin: 0 auto 40px;
+  position: relative;
+  bottom: 20px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 15% 15% 10%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 14% 15% 5%;
+}
+
+.features-text1 {
+  color: #8f8f8f;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.fab-footer {
+  margin: auto 10px;
+  ;
+  color: black;
+}
+
+.fab-footer:hover {
+  text-decoration: none;
+}
